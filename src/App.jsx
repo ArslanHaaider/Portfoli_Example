@@ -44,12 +44,13 @@ const App = () => {
     }, '-=2');
   }, []);
   return (
-
+    <>
+    <Loader/>
     <div className='bg h-screen bg-white '>
       <Nav/>
     <Landing/>
     </div>   
-  
+    </>
   )
 }
 
