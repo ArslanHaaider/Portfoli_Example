@@ -4,7 +4,7 @@ const Right = () => {
   return (
     <div>
     
-      <img src={mainImage} alt="" />
+      <img id='right' src={mainImage} alt="" />
     </div>
   )
 }
